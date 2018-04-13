@@ -1,31 +1,10 @@
-###### About
-##### About
-#### About
-### About
-## About
-# About
-The Little Redis Book is a free book introducing Redis.
-The book was written by Karl Seguin, with Perry Neal's assitance
-If you liked this book, maybe you'll also like The little mongodb book
+## 第10章---再论指针
 
-the website of [baidu](https://www.baidu.com)
-
-* China
-* Russia
-* Japan
-
-1. China
-2. Russia
-3. Japan
-
-**China***china*
-`#include<stdio.h>`
+1. 多维数组在内存中的分布为线性的，最右边的下标首先变化。比如数组`a[2][2][2]`中的各个元素在内存中的存储依次是：
 
 ```
-int main()
-{
-
-}
+a[0][0][0] a[0][0][1] a[0][1][0] a[0][1][1] a[1][0][0] a[1][0][1] a[1][1][0] a[1][1][1]
 ```
-* * *
+
+2. 数组名是一个不能更改的左值
 
