@@ -20,7 +20,9 @@ the website of [baidu](https://www.baidu.com)
 
 **China***china*
 `#include<stdio.h>`
-```int main()
+
+```
+int main()
 {
 
 }
