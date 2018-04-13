@@ -1,14 +1,14 @@
-######About
-#####About
-####About
-###About
-##About
-#About
+###### About
+##### About
+#### About
+### About
+## About
+# About
 The Little Redis Book is a free book introducing Redis.
 The book was written by Karl Seguin, with Perry Neal's assitance
 If you liked this book, maybe you'll also like The little mongodb book
 
-the website of [baidu](www.baidu.com)
+the website of [baidu](https://www.baidu.com)
 
 * China
 * Russia
